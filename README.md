@@ -3,7 +3,7 @@
 ### Demo: https://helalabood.github.io/Fm-5-order-summary-component-main/
 
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
+This is a solution to the [Order Summary Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Table of contents
 
@@ -18,14 +18,14 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./mobile-design.jpg)
+![Desktop](./screenshot.jpg)
+![Mobile](./mobile-design.jpg)
 
 
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj]
-- Live Site URL: [https://helalabood.github.io/Fm-5-order-summary-component-main/](https://your-live-site-url.com)
+- Live Site URL: [https://helalabood.github.io/Fm-5-order-summary-component-main/](https://helalabood.github.io/Fm-5-order-summary-component-main/)
 
 ## My process
 
@@ -33,7 +33,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - Semantic HTML5 markup
 - CSS custom properties
-- FontAwesome
 - BootStrap 3
 - Flexbox
 - CSS Grid System

@@ -59,15 +59,25 @@ main .content .info {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+main .content .info img { 
+    margin-left: -12px;
+}
+@media (max-width: 767px) {
+    main .content .info img { 
+        margin-left: -30px;
+    }
+}
 main .content .info .text { 
     margin-left: -40px;
+    padding: 10px;
 }
-main .content .info .text h4 { 
+main .content .info .text p:first-child { 
     margin-bottom: -10px;
     font-weight: 900;
 }
-main .content .info .text p { 
+main .content .info .text p:last-child { 
     color: var(--Dark-blue);
+    font-weight: 200;
 }
 main .content .info a.change { 
     color: var(--Brigh-blue);
@@ -83,8 +93,7 @@ main .content .info a.change:hover {
     justify-content: space-evenly;
     background-color: var(--Brigh-blue);
     border-radius: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 10px;
     box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
     -webkit-box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
     -moz-box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
@@ -107,8 +116,7 @@ main .content .info a.change:hover {
     justify-content: space-evenly;
     border-radius: 10px;
     margin-top: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 10px;
 }
 .box-holder .canel a { 
     color: var(--Desaturated-blue);
