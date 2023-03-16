@@ -1,0 +1,122 @@
+:root { 
+    --pale-blue: hsl(225, 100%, 94%);
+    --Brigh-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--pale-blue);
+    background-image: url(../imgs/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+main { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+@media (max-width: 767px) {
+    main { 
+        padding: 5px;
+    }
+}
+main .content { 
+    background-color: white;
+    border-radius: 15px;
+}
+main img.hero { 
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main .content .land { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .content .box-holder { 
+    padding: 20px 40px;
+}
+main .content .land p.hero { 
+    max-width: 300px;
+    color: var(--Desaturated-blue);
+    margin-top: -10px;
+}
+main .content .info { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--Very-pale-blue);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+main .content .info .text { 
+    margin-left: -40px;
+}
+main .content .info .text h4 { 
+    margin-bottom: -10px;
+    font-weight: 900;
+}
+main .content .info .text p { 
+    color: var(--Dark-blue);
+}
+main .content .info a.change { 
+    color: var(--Brigh-blue);
+    font-size: 16px;
+    font-weight: 700;
+}
+main .content .info a.change:hover { 
+    color: hsl(222, 81%, 50%);
+}
+.box-holder .payment { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--Brigh-blue);
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
+    -webkit-box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
+    -moz-box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
+    -o-box-shadow: 0 0 24px 1px hsla(223, 47%, 23%, 0.365);
+}
+.box-holder .payment:hover,
+.box-holder .payment:hover > a { 
+    background-color: hsl(222, 81%, 50%);
+}
+.box-holder .payment a { 
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: none;
+}
+.box-holder .cancel { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.box-holder .canel a { 
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    box-shadow: none;
+}
+.box-holder .canel a:hover { 
+    color: var(--Dark-blue);
+}
